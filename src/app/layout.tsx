@@ -5,7 +5,6 @@ import "./globals.css";
 
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { PopupWidget }  from "@/components/PopupWidget";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,12 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className="px-0 md:px-16 flex flex-col min-h-screen">
         <ThemeProvider attribute="class">
           <Navbar />
-          <div>{children}</div>
+          <div className="flex-grow flex justify-center items-center">{children}</div>
           <Footer />
-          <PopupWidget />
         </ThemeProvider>
       </body>
     </html>
