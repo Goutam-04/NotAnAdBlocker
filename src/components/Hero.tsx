@@ -12,7 +12,7 @@ export const Hero = () => {
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             It automatically skips ads and speeds them up.<br></br>
-            It's user-friendly, efficient, and completely free.<br></br>
+            Its user-friendly, efficient, and completely free.<br></br>
             Watch the video or go to github repo for installation process.
             </p>
 
